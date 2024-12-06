@@ -1,0 +1,111 @@
+*{
+    font-family: tahoma;
+}
+.header{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+.header-logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header-logo img{
+    height: 150px;
+}
+.header-title{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 40px;
+}
+.header-title a{
+    text-decoration: none;
+    font-size: 25 px;
+    font-weight: bold;
+    color: black;
+}
+.nav{
+    background-color: blue;
+    padding: 10px;
+    margin-top: 0px;
+
+}
+.nav-item{
+    display: inline-block;
+    margin-left: 25 px;
+    height: 20px;
+    padding-left: 25px;
+}
+.nav-item a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+.nav-item a:hover{
+    color: aqua
+}
+
+.form-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.label{
+    font-size: 20px;
+    color: black;
+}
+.input{
+    margin-top: 15px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.textarea{
+    display: block;
+    margin-top: 10px;
+    height: 300px;
+    width: 60%;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.btn{
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    background-color: burlywood;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+}
+.btn:active{
+    background-color: green;
+}
+.konten h1{
+    font-family: Tahoma;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    height: 40px;
+    width: 200px;
+    margin-left: 500px;
+}
+.isi-cerpen{
+    color: aliceblue;
+    background-color: cadetblue;
+}
+.konten-cerpen h1 {
+    font-family: Tahoma;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+
+}
